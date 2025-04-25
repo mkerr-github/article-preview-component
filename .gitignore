@@ -1,0 +1,11 @@
+
+### Frontend Mentor General ##
+*.xd
+*.sketch
+*.fig
+.DS_Store
+.prettierignore
+### Frontend Mentor Local ##
+\design
+\fig
+preview.jpg
