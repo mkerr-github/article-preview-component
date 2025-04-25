@@ -1,8 +1,8 @@
-    .attribution {
+    .footer__attribution {
         font-size: 11px;
         text-align: center;
     }
 
-    .attribution a {
+    .footer__attribution-link {
         color: hsl(228, 45%, 44%);
     }
