@@ -54,7 +54,7 @@ article {
 .card {
     width: 100%;
     max-width: 20.4375rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: var(--White);
     overflow: hidden;
     box-shadow: 0.625rem 2.5rem 2.5rem -0.625rem hsl(210, 29%, 84%, 0.7);
@@ -78,7 +78,7 @@ article {
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 130%;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.015625rem;
 }
 
 .card__description {
@@ -148,17 +148,17 @@ article {
 .share__menu {
     width: 20.4375rem;
     height: 4.75rem;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
     background-color: var(--Very_Dark_Grayish_Blue);
     color: var(--Grayish_Blue);
 
     font-size: 0.8125rem;
     line-height: 140%;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
 
     position: absolute;
-    bottom: 0px;
+    bottom: 0rem;
 }
 
 .share__icons {
@@ -215,7 +215,7 @@ article {
     .share__menu {
         width: 15.5rem;
         height: 3.4375rem;
-        border-radius: 10px;
+        border-radius: 0.625rem;
         bottom: 6.625rem;
         left: 26.6875rem;
     }
@@ -229,7 +229,7 @@ article {
     .share__menu::after {
         content: "";
         position: absolute;
-        bottom: -10px;
+        bottom: -0.625rem;
         /* put triangle below the menu */
         left: 50%;
         /* centers it horizontally */
@@ -237,11 +237,11 @@ article {
         /* adjusts so it’s truly centered */
         width: 0;
         height: 0;
-        border-left: 10px solid transparent;
+        border-left: 0.625rem solid transparent;
         /* left side transparent */
-        border-right: 10px solid transparent;
+        border-right: 0.625rem solid transparent;
         /* right side transparent */
-        border-top: 10px solid var(--Very_Dark_Grayish_Blue);
+        border-top: 0.625rem solid var(--Very_Dark_Grayish_Blue);
         /* top side = triangle color */
     }
 }
@@ -282,7 +282,7 @@ article {
     .share__menu {
         width: 15.5rem;
         height: 3.4375rem;
-        border-radius: 10px;
+        border-radius: 0.625rem;
         bottom: 6rem;
         left: 34.375rem;
     }
@@ -296,7 +296,7 @@ article {
     .share__menu::after {
         content: "";
         position: absolute;
-        bottom: -10px;
+        bottom: -0.625rem;
         /* put triangle below the menu */
         left: 50%;
         /* centers it horizontally */
@@ -304,11 +304,11 @@ article {
         /* adjusts so it’s truly centred */
         width: 0;
         height: 0;
-        border-left: 10px solid transparent;
+        border-left: 0.625rem solid transparent;
         /* left side transparent */
-        border-right: 10px solid transparent;
+        border-right: 0.625rem solid transparent;
         /* right side transparent */
-        border-top: 10px solid var(--Very_Dark_Grayish_Blue);
+        border-top: 0.625rem solid var(--Very_Dark_Grayish_Blue);
         /* top side = triangle color */
     }
 
