@@ -19,56 +19,53 @@
 </head>
 
 <body>
-  <article>
+  <main>
+    <article>
 
-    <section class="card">
+      <section class="card">
 
-      <div class="card__main-image-container">
-        <img class="card__main-image" src="./images/drawers.jpg" alt="Chest of green drawers">
-      </div>
-      
-      <div class="card__text-area">
-
-        <h1 class="card__heading">Shift the overall look and feel by adding these wonderful
-          touches to furniture in your home</h1>
-
-        <p class="card__description">Ever been in a room and felt like something was missing? Perhaps
-          it felt slightly bare and uninviting. I’ve got some simple tips
-          to help you make any room feel complete.</p>
-
-        <div class="card__author">
-          <img class="card__author-avatar" src="./images/avatar-michelle.jpg" alt="Michelle Appleton, article author">
-          <div class="card__author-details">
-              <p class="card__author-name">Michelle Appleton</p>
-              <p class="card__author-date">28 Jun 2020</p>
-          </div>
-          <button class="card__share-button" id="button-share"><img id="share-img" src="./images/icon-share.svg"
-                alt="share button">
-          </button>
+        <div class="card__main-image-container">
+          <img class="card__main-image" src="./images/drawers.jpg" alt="Chest of green drawers">
         </div>
 
+        <div class="card__text-area">
+
+          <h1 class="card__heading">Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home</h1>
+
+          <p class="card__description">Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.</p>
+
+          <div class="card__author">
+            <img class="card__author-avatar" src="./images/avatar-michelle.jpg" alt="Michelle Appleton, article author">
+            <div class="card__author-details">
+              <p class="card__author-name">Michelle Appleton</p>
+              <p class="card__author-date">28 Jun 2020</p>
+            </div>
+
+            <button class="card__share-button" id="button-share" aria-expanded="false" aria-controls="share-visible"
+              aria-label="Share article">
+              <img id="share-img" src="./images/icon-share.svg" alt="">
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <div class="share__menu" id="share-visible" aria-hidden="true">
+        <div class="share__icons">
+          <p>SHARE</p>
+          <a href="https://www.facebook.com/"><img src="./images/icon-facebook.svg" alt="Facebook link"></a>
+          <a href="https://x.com"><img src="./images/icon-twitter.svg" alt="Twitter link"></a>
+          <a href="https://www.pinterest.com/"><img src="./images/icon-pinterest.svg" alt="Pinterest link"></a>
+        </div>
       </div>
 
-    </section>
-
-    <div class="share__menu" id="share-visible">
-      <div class="share__icons">
-        <p>SHARE</p>
-        <a href="https://www.facebook.com/"><img src="./images/icon-facebook.svg" alt="Facebook link"></a>
-        <a href="https://x.com"><img src="./images/icon-twitter.svg" alt="link for x.com"></a>
-        <a href="https://www.pinterest.com/"><img src="./images/icon-pinterest.svg" alt="Pinterest link"></a>
-      </div>
-    </div>
-
-  </article>
-
-  <!-- <footer>
-    <div class="footer__attribution">
-      Challenge by <a class="footer__attribution-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a  class="footer__attribution-link" href="https://www.frontendmentor.io/profile/mkerr-github">M Kerr</a>.
-    </div>
-  </footer> -->
-
+    </article>
+  </main>
 </body>
 
 </html>

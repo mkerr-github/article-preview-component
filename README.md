@@ -8,10 +8,8 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-
 
 
 ## Overview
@@ -32,15 +30,16 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://mkerr-github.github.io/article-preview-component/](https://mkerr-github.github.io/article-preview-component/)
 
-## My process
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Javascript
+- Mobile-first workflow
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+
 
 ## Author
 
