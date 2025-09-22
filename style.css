@@ -52,7 +52,8 @@ article {
 }
 
 .card {
-    width: 20.4375rem;
+    width: 100%;
+    max-width: 20.4375rem;
     border-radius: 10px;
     background-color: var(--White);
     overflow: hidden;
@@ -182,7 +183,7 @@ article {
 @media (min-width: 48rem) {
 
     .card {
-        width: 38rem;
+        max-width: 38rem;
         height: 21.625rem;
         display: flex;
     }
@@ -249,7 +250,7 @@ article {
 @media (min-width: 62rem) {
 
     .card {
-        width: 45.625rem;
+        min-width: 45.625rem;
         height: 17.5rem;
         display: flex;
     }
