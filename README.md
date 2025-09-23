@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-KMQQimYqPx](https://www.frontendmentor.io/solutions/article-preview-component-KMQQimYqPx)
 - Live Site URL: [https://mkerr-github.github.io/article-preview-component/](https://mkerr-github.github.io/article-preview-component/)
 
 
